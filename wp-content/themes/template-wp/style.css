@@ -1,0 +1,128 @@
+/*
+Theme Name: template-wp
+Theme URI: https://wordpress.org/themes/template-wp/
+Author: matthijs
+Author URI: https://matthijs.org/
+Description: Twenty Seventeen brings your site to life with immersive featured images and subtle animations. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentyseventeen
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+body{
+    background-color: darkgrey;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 15%;
+    background-color: red;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li a{
+    display: flex;
+    text-decoration: none;
+    margin: 10px;
+}
+
+a{
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+}
+
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+main{
+    width: 80%;
+    height: auto;
+    background-color: burlywood;
+    padding-top: 20px;
+    display: inline-block;
+}
+
+
+
+aside {
+    width: 20%;
+    height: auto;
+    padding-top: 20px;
+    background-color: pink;
+}
+
+
+
+.pos-alles{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+}
+
+
+.post{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: wheat;
+    border: 1px solid black;
+    flex-direction: column;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: red;
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    justify-content: space-around;
+}
+
+.commentlist{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    border: 2px solid black;
+}
+
+#comments{
+    display: none;
+}
+
+#respond .comment-repspond{
+    width: 50%;
+    height: auto;
+    border: 2px solid black;
+}
+
+
+
+
+
+
